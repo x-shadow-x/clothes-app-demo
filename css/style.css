@@ -1,0 +1,319 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	/*height: 100%;*/
+	font-family:"MicrosoftYaHei";	
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+body {
+	background: url("../images/bg.jpg") 0 0 no-repeat;
+	background-size: 100%;
+}
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	width: 100%;
+	height: 1.6rem;
+	line-height: 1.6rem;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+}
+
+.go-back {
+	float: left;
+	height: 1.6rem;
+    width: 20%;
+    text-align: left;
+    
+}
+
+.back-arrow {
+	display: inline-block;
+	margin-left: 0.7rem;
+    height: 0.53rem;
+    margin-top: 0.535rem;
+    
+    
+}
+
+.title {
+	float: left;
+	width: 60%;
+	line-height: 1.6rem;
+    height: 1.6rem;
+    color: #fff;
+    font-size: .5rem;
+}
+
+.main {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.pic-tab {
+	position: absolute;
+	top: 1.9rem;
+	right: .08rem;
+	width: 2.38rem;
+	height: 1.12rem;
+	background: url("../images/sanse-tab.png") 0 0 no-repeat;
+	background-size: 100% 100%; 
+}
+.logo {
+	position: absolute;
+	top: 3.36rem;
+	left: 50%;
+	margin-left: -0.72rem;
+	width: 1.48rem;
+	height: 0.52rem;
+	background: url("../images/nike.png") 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+.description {
+	position: absolute;;
+	top: 4.52rem;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: .25rem;
+}
+.price-box {
+	position: absolute;
+	top: 5.34rem;
+	width: 100%;
+	text-align: center;
+	font-weight: 700;
+	color: #ee880c;
+}
+.price-tab {
+	font-size: .25rem;
+
+}
+.price {
+	font-size: .55rem;
+}
+
+
+
+.register-btn,
+.register-btn {
+	position: fixed;
+	bottom: 0.8rem;
+	left: 50%;
+	margin-left: -2.9rem;
+	width: 5.8rem;
+	height: 1.28rem;
+	color: #fff;
+	background: #ee880c;
+	border-radius: 1.28rem;
+	font-size: .32rem;
+	font-weight: 700;
+	text-align: center;
+	outline: none;
+	border: none;
+}
+.register-btn a,
+.view-btn a,
+.app-download a{
+	text-decoration: none;
+	color: #fff;
+	height: 1.28rem;
+	line-height: 1.28rem;
+	display: block;
+}
+.drop-down-btn{
+	position: fixed;
+	bottom: 0.3rem;
+	left: 50%;
+	margin-left: -.3rem;
+	width: .52rem;
+	height: .42rem;
+	background: url("../images/drop-down.png") 0 0 no-repeat;
+	background-size: 100%;
+}
+
+/*--------------------------------先睹为快样式-----------------------------------------*/
+.view-body {
+	/*background: url("../images/bg2.jpg") 0 0 no-repeat;
+	/*background-size: 100%;*/*/
+}
+.active-title {
+	position: absolute;
+	top: 1.8rem;
+	left: 0.7rem;
+	font-size: 1.2rem;
+	color: #fff;
+}
+.avtive-time {
+	position: absolute;
+	top: 3.2rem;
+	left: 0.7rem;
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: 999;
+}
+i {
+	font-style: normal;
+	color: #ee880c;
+}
+
+.view-btn {
+	position: fixed;
+	bottom: 1.52rem;
+	left: 50%;
+	margin-left: -2.9rem;
+	width: 5.8rem;
+	color: #fff;
+	text-align: center;
+	-webkit-box-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff;
+	box-shadow: 		1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff;
+	border: none;
+	height: 1.28rem;
+	border-radius: 1.28rem;
+	background: none;
+	outline: none;
+}
+
+
+/*------------------------------下载app页面样式----------------------------*/
+.wrap {
+	position: fixed;
+	bottom: 0.32rem;
+	left: 50%;
+	margin-left: -4.7rem;
+	width: 9.6rem;
+
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 0.1rem;
+	color: #fff;
+	z-index: 999;
+}
+.active-tip {
+	font-size: .62rem;
+	text-align: center;
+	height: 0.75rem;
+	line-height: 0.75rem;
+}
+.get-icon {
+	display: inline-block;
+	width: 0.84rem;
+	height: 0.75rem;
+	background: url("../images/get.png") center no-repeat;
+	background-size: 100% 100%;
+	margin-left: .2rem;
+	margin-right: .2rem;
+}
+.sener-line {
+	height: 0.4rem;
+	position: relative;
+	margin-bottom: .32rem;
+}
+.logo-line {
+	position: absolute;
+	left: 50%;
+	margin-left: -0.45rem;
+	background: url("../images/sanse-logo.png") center no-repeat;
+	background-size:  100% 100%;
+	width: 0.9rem;
+	height: 0.4rem;
+}
+.line-left {
+	position: absolute;
+	left: 0.8rem;
+	top: .2rem;
+	border-bottom: 1px solid #333;
+	width: 30%;
+}
+.line-right {
+	position: absolute;
+	right: 0.8rem;
+	top: .2rem;
+	border-bottom: 1px solid #333;
+	width: 30%;
+}
+
+.logo-lists {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-bottom: .5rem;
+}
+.logo-lists li {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	width: 1.2rem;
+	height: 1.2rem;
+}
+.logo-lists li img {
+	width: 100%;
+}
+.nike-logo {
+	background: url("../images/list-nike.png") center no-repeat;
+	background-size: 150% 150%;
+}
+.app-download {
+	display: block;
+	width: 5.8rem;
+	height: 1.28rem;
+	color: #fff;
+	background: #ee880c;
+	border-radius: 1.28rem;
+	font-size: .32rem;
+	font-weight: 700;
+	text-align: center;
+	outline: none;
+	border: none;
+	margin: 0 auto;
+}
+
+.text-box {
+	padding-left: .3rem;
+	margin-bottom: .8rem;
+}
+.avtive-note-title {
+	font-size: .35rem;
+}
+
+.active-note-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: .32rem;
+}
+.active-note-list li {
+	margin-bottom: .2rem;
+}
+
+.bg2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.good-pic {
+	width: 100%;
+}
+.swiper-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.swiper-slide {
+	overflow: hidden;
+}
